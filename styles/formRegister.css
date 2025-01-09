@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    border: none;
+    outline: none;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #45b39d ;
+}
+.h1-register{
+    text-align: center;
+}
+
+#form-register{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+#form-input-username{
+    text-align: center;
+    border: solid #515a5a 5px;
+    border-radius: 10px;
+    width: 20rem;
+    height: 2.5em;
+    font-size: 15px; 
+}
+#form-input-password{
+    text-align: center;
+    border: solid #515a5a 5px;
+    border-radius: 10px;
+    width: 20rem;
+    height: 2.5em;
+    font-size: 15px; 
+}
+#form-input-email{
+    text-align: center;
+    border: solid #515a5a 5px;
+    border-radius: 10px;
+    width: 20rem;
+    height: 2.5em;
+    font-size: 15px; 
+}
+
+
+
+.form-label{
+    font-size: large;
+    font-style: italic;
+}
+#btn-register{
+    font-size: large;
+    font-style: oblique;
+    background-color: #2980b9;
+    border: solid whitesmoke 0px;
+    border-radius: 25px;
+    width: 15rem;
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+
+#btn-register:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 4px 15px whitesmoke;
+}
+
+
+
+.a-go-back{
+    position: absolute;
+    left: 50px;
+   
+}
+.button-register{
+    font-size: large;
+    font-style: oblique;
+    background-color: #2980b9;
+    border: solid whitesmoke 0px;
+    border-radius: 25px;
+    width: 6rem;
+    transition: transform 0.3s ease
+    
+}
+.button-register:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 4px 15px whitesmoke;
+}

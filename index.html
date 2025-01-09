@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet" />
+    <title>System Login</title>
+  </head>
+  <body>
+    <form class="form-system-login" id="form-login">
+      <div class="div-login">
+        <p class="div-p">Username</p>
+        <input
+          id="div-input-login-username"
+          placeholder="Username"
+          type="text"
+          minlength="4"
+          maxlength="25" />
+        <p class="div-p">Password</p>
+        <input
+          id="div-input-login-password"
+          placeholder="Password"
+          type="password"
+          minlength="4"
+          maxlength="20" />
+
+        <button id="button-login" type="submit">Login</button>
+      </div>
+    </form>
+    <div class="div-login-register">
+      <p class="p-login"> Are you don't have user ? </p>
+      <a class="a-btn-register" href="./content/formRegister.html">
+        <button class="button-register" type="submit" onclick="">
+          Register
+        </button>
+      </a>
+    </div>
+    <script src="script/login.js"/>
+  </body>
+</html>
